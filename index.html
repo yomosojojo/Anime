@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Power Rankings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="notification-banner">
+        <div class="banner-header">
+            <h1>Anime Power Rankings</h1>
+            <p>Vote for your favorite anime this season</p>
+        </div>
+        
+        <div class="banner-content">
+            <img src="https://images.unsplash.com/photo-1633613286848-e6f43bbafb8d?w=600&auto=format" alt="Anime Collage">
+            
+            <form class="vote-form">
+                <div class="form-group">
+                    <input type="text" id="username" required>
+                    <label for="username">Your Name</label>
+                    <span class="validation-icon"></span>
+                </div>
+                
+                <div class="ranking-options">
+                    <div class="option">
+                        <input type="checkbox" id="option1">
+                        <label for="option1" class="custom-checkbox">
+                            <span>Demon Slayer</span>
+                        </label>
+                    </div>
+                    <div class="option">
+                        <input type="checkbox" id="option2">
+                        <label for="option2" class="custom-checkbox">
+                            <span>Jujutsu Kaisen</span>
+                        </label>
+                    </div>
+                    <div class="option">
+                        <input type="checkbox" id="option3">
+                        <label for="option3" class="custom-checkbox">
+                            <span>My Hero Academia</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <button type="submit" class="bounce-btn">Submit Vote</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
